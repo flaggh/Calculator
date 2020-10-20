@@ -4,6 +4,21 @@ CS 480 - Lab3
 ## Overview
 This program is a text based program that allows users to type in an equation and then will return the answer to the equation if the equation is a valid one.
 
+## Files
+There are four source files in this project.
+They are BST.java, Calculator.java, Main.java, and Command.java.
+Both BST and Calculator are for constructing and using the data structures that are made in them.
+Main was the original driver class that was being used to use and test my program but because of errors that were occuring I made a new driver class.
+This is why we have the Command file which for users is what should be used.
+For java compiling in the windows command prompt all of the before mentioned files and there contents are copied onto the Command file.
+
+## How To Use
+To use the Command file and therfore the program itself, users should first locate themselves to the correct directory.
+Once there, users can then compile the file by entering the command "javac Command.java".
+Once the program has been compiled the program can then be run using the command "java Command.java".
+After this command the program will begin running and asking the user for math equations.
+To quit the program users can type "quit", which the program does tell users.
+
 ## input
 The program requires users to type in the equation using their keyboard. 
 The equation is read in as a string but it can include numbers and some operators.
